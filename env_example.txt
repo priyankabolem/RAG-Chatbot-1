@@ -1,0 +1,4 @@
+OPENAI_API_KEY=your_openai_key_here
+NEO4J_URI=neo4j+s://your_instance_uri
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=your_password_here
