@@ -1,12 +1,9 @@
-from dotenv import load_dotenv
 import os
 from langchain.graphs import Neo4jGraph
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores.neo4j_vector import Neo4jVector
 from langchain.embeddings import OpenAIEmbeddings
-
-load_dotenv()
 
 def run_chatbot(question):
     graph = Neo4jGraph(
