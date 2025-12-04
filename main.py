@@ -1,10 +1,17 @@
+#from dotenv import load_dotenv
+#import os
+#from langchain.graphs import Neo4jGraph
+#from langchain.chains import RetrievalQA
+#from langchain.chat_models import ChatOpenAI
+#from langchain.vectorstores.neo4j_vector import Neo4jVector
+#from langchain.embeddings import OpenAIEmbeddings
 from dotenv import load_dotenv
 import os
-from langchain.graphs import Neo4jGraph
+
+from langchain_community.graphs import Neo4jGraph
+from langchain_community.vectorstores import Neo4jVector
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
-from langchain.vectorstores.neo4j_vector import Neo4jVector
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
 load_dotenv()
 
