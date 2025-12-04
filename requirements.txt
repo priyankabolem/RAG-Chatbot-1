@@ -1,9 +1,5 @@
 streamlit
 python-dotenv
-langchain
-langchain_community
-langchain_core
-langchain_experimental
-langchain_openai
+langchain==0.0.351
 neo4j
 openai
