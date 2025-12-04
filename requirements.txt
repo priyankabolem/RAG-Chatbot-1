@@ -5,4 +5,4 @@ langchain-openai==0.2.14
 langchain-community==0.3.13
 langchain-core==0.3.28
 neo4j
-openai==1.57.4
+openai>=1.58.1
